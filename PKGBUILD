@@ -29,7 +29,7 @@ makedepends=(
 provides=(libfprint libfprint-2.so)
 conflicts=(libfprint)
 groups=(fprint)
-source=("libfprint::git+https://gitlab.freedesktop.org/libfprint/libfprint.git#tag=v$pkgver"
+source=("libfprint-9011::git+https://gitlab.freedesktop.org/libfprint/libfprint.git#tag=v$pkgver"
         "realtek-9011.patch")
 b2sums=('SKIP' 'SKIP')
 
