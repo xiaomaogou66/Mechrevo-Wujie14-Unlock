@@ -1,0 +1,153 @@
+diff --git a/data/autosuspend.hwdb b/data/autosuspend.hwdb
+index dcf2d11..ebdb9c3 100644
+--- a/data/autosuspend.hwdb
++++ b/data/autosuspend.hwdb
+@@ -176,6 +176,7 @@ usb:v04F3p0CA7*
+ usb:v04F3p0CA8*
+ usb:v04F3p0CB0*
+ usb:v04F3p0CB2*
++usb:v04F3p0CB6*
+  ID_AUTOSUSPEND=1
+  ID_PERSIST=0
+ 
+@@ -253,6 +254,10 @@ usb:v27C6p6890*
+ usb:v27C6p689A*
+ usb:v27C6p66A9*
+ usb:v27C6p6984*
++usb:v27C6p65BA*
++usb:v27C6p6515*
++usb:v27C6p66AC*
++usb:v27C6p660A*
+  ID_AUTOSUSPEND=1
+  ID_PERSIST=0
+ 
+@@ -272,6 +277,7 @@ usb:v0BDAp5813*
+ usb:v0BDAp5816*
+ usb:v2541pFA03*
+ usb:v3274p9003*
++usb:v3274p9011*
+  ID_AUTOSUSPEND=1
+  ID_PERSIST=0
+ 
+diff --git a/libfprint/drivers/realtek/realtek.c b/libfprint/drivers/realtek/realtek.c
+index d207c28..41ff938 100644
+--- a/libfprint/drivers/realtek/realtek.c
++++ b/libfprint/drivers/realtek/realtek.c
+@@ -31,6 +31,7 @@ static const FpIdEntry id_table[] = {
+   { .vid = 0x0bda,  .pid = 0x5816,  },
+   { .vid = 0x2541,  .pid = 0xfa03,  },
+   { .vid = 0x3274,  .pid = 0x9003,  },
++  { .vid = 0x3274,  .pid = 0x9011,  },
+   { .vid = 0,  .pid = 0,  .driver_data = 0 },   /* terminating entry */
+ };
+ 
+@@ -440,6 +441,10 @@ fp_get_enroll_num_cb (FpiDeviceRealtek *self,
+     }
+ 
+   self->template_num = buffer_in[1];
++  g_debug ("RTK-9011 GET_ENROLL_NUM resp: buf[0]=0x%02x template_num=%u raw=%02x %02x %02x %02x %02x %02x %02x %02x",
++           buffer_in[0], self->template_num,
++           buffer_in[0], buffer_in[1], buffer_in[2], buffer_in[3],
++           buffer_in[4], buffer_in[5], buffer_in[6], buffer_in[7]);
+ 
+   fpi_ssm_next_state (self->task_ssm);
+ }
+@@ -668,6 +673,12 @@ fp_cmd_receive_cb (FpiUsbTransfer *transfer,
+   status_flag = parse_status (transfer->buffer, self->message_type);
+   if (status_flag != 0)
+     {
++      g_debug ("RTK-9011 status=0x%02x len=%u buf=%02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x",
++               transfer->buffer[0], (guint) transfer->actual_length,
++               transfer->buffer[0], transfer->buffer[1], transfer->buffer[2], transfer->buffer[3],
++               transfer->buffer[4], transfer->buffer[5], transfer->buffer[6], transfer->buffer[7],
++               transfer->buffer[8], transfer->buffer[9], transfer->buffer[10], transfer->buffer[11],
++               transfer->buffer[12], transfer->buffer[13], transfer->buffer[14], transfer->buffer[15]);
+       fpi_ssm_mark_failed (transfer->ssm,
+                            fpi_device_error_new_msg (FP_DEVICE_ERROR_PROTO,
+                                                      "Status check failed"));
+@@ -1148,6 +1159,31 @@ fp_enroll_sm_run_state (FpiSsm *ssm, FpDevice *device)
+     }
+ }
+ 
++static void
++fp_select_os_cb (FpiDeviceRealtek *self,
++                 uint8_t          *buffer_in,
++                 GError           *error)
++{
++  if (error)
++    {
++      fpi_ssm_mark_failed (self->task_ssm, error);
++      return;
++    }
++
++  /* 3274:9011 firmware requires a 4-step select_os handshake (params 0..3)
++   * before the template store becomes accessible. Re-enter the SELECT_OS
++   * state until all 4 steps have been sent. */
++  if (self->select_os_count < 3)
++    {
++      self->select_os_count++;
++      fpi_ssm_jump_to_state (self->task_ssm, FP_RTK_INIT_SELECT_OS);
++    }
++  else
++    {
++      fpi_ssm_next_state (self->task_ssm);
++    }
++}
++
+ static void
+ fp_init_sm_run_state (FpiSsm *ssm, FpDevice *device)
+ {
+@@ -1161,10 +1197,15 @@ fp_init_sm_run_state (FpiSsm *ssm, FpDevice *device)
+       break;
+ 
+     case FP_RTK_INIT_SELECT_OS:
+-      co_select_system.param[0] = 0x01;
+-      cmd_buf = (guint8 *) &co_select_system;
+-      rtk_sensor_bulk_cmd (self, cmd_buf, NULL, FP_RTK_MSG_DEFAULT, 0, fp_task_ssm_generic_cb);
+-      break;
++      {
++        GUsbDevice *usb_dev = fpi_device_get_usb_device (device);
++        gboolean handshake = (g_usb_device_get_pid (usb_dev) == 0x9011);
++        co_select_system.param[0] = handshake ? self->select_os_count : 0x01;
++        cmd_buf = (guint8 *) &co_select_system;
++        rtk_sensor_bulk_cmd (self, cmd_buf, NULL, FP_RTK_MSG_DEFAULT, 0,
++                             handshake ? fp_select_os_cb : fp_task_ssm_generic_cb);
++        break;
++      }
+ 
+     case FP_RTK_INIT_GET_ENROLL_NUM:
+       cmd_buf = (guint8 *) &co_get_enroll_num;
+@@ -1320,6 +1361,8 @@ dev_init (FpDevice *device)
+ 
+   g_assert (!self->task_ssm);
+ 
++  self->select_os_count = 0;
++
+   self->task_ssm = fpi_ssm_new_full (device,
+                                      fp_init_sm_run_state,
+                                      FP_RTK_INIT_NUM_STATES,
+diff --git a/libfprint/drivers/realtek/realtek.h b/libfprint/drivers/realtek/realtek.h
+index 5658e05..1246704 100644
+--- a/libfprint/drivers/realtek/realtek.h
++++ b/libfprint/drivers/realtek/realtek.h
+@@ -160,6 +160,7 @@ struct _FpiDeviceRealtek
+   FpRtkPurpose    fp_purpose;
+   gint            pos_index;
+   gint            template_num;
++  gint            select_os_count;
+   gint            template_len;
+ };
+ 
+diff --git a/tests/meson.build b/tests/meson.build
+index aad0675..2147ef3 100644
+--- a/tests/meson.build
++++ b/tests/meson.build
+@@ -292,7 +292,7 @@ else
+         args: ['-c', 'exit 77']
+     )
+ 
+-    foreach driver_test: drivers_tests
++    foreach driver_test, args: drivers_tests
+         test(driver_test,
+             sh,
+             args: ['-c', 'exit 77']
