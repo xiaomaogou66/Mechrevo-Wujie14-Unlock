@@ -1,0 +1,219 @@
+d10326b6d04fce85028d53e24711b7b475d22e5d	not-for-merge	'refs/environments/review-wip-hadess-ytcs2u/deployments/1' of https://gitlab.freedesktop.org/libfprint/libfprint
+17131b2fefc937278122e77bf3a1c51cb57d411e	not-for-merge	'refs/environments/review-wip-hadess-ytcs2u/deployments/2' of https://gitlab.freedesktop.org/libfprint/libfprint
+c15da6ca43badf27f4bf57dcad6104b6857ffa44	not-for-merge	'refs/environments/review-wip-hadess-ytcs2u/deployments/3' of https://gitlab.freedesktop.org/libfprint/libfprint
+4186b645e3080bf92de6820b590f2a2e171f9aeb	not-for-merge	'refs/environments/review-wip-hadess-ytcs2u/deployments/4' of https://gitlab.freedesktop.org/libfprint/libfprint
+489332c07da4092adf75e28d86e1c9dad744af7a	not-for-merge	'refs/for/goodix-pid' of https://gitlab.freedesktop.org/libfprint/libfprint
+3f13ddc40dced65128e01b2490f03786e9c31c56	not-for-merge	branch 'benzea/add-support-warning-to-website' of https://gitlab.freedesktop.org/libfprint/libfprint
+c7cab77fc160c66af8eee130953cac069f80284a	not-for-merge	branch 'benzea/add-usb-cancellation-workaround' of https://gitlab.freedesktop.org/libfprint/libfprint
+1528c962fa5129d8c62be367d33c1514365b6822	not-for-merge	branch 'benzea/ci-timeouts' of https://gitlab.freedesktop.org/libfprint/libfprint
+cb56ddba5bb184b1ee14426a7e6ca654e395a194	not-for-merge	branch 'benzea/deactivate-race-window' of https://gitlab.freedesktop.org/libfprint/libfprint
+3a3d70f0bcfec23e08e9bd2a5d9c1855b83e5ba5	not-for-merge	branch 'benzea/egis_etu905_add_template_update' of https://gitlab.freedesktop.org/libfprint/libfprint
+664126b431a952b00c83d8e2ac3797a9e3a6f9f3	not-for-merge	branch 'benzea/elanspi-critical' of https://gitlab.freedesktop.org/libfprint/libfprint
+bc3f622b2af9dde4872d2732c67c111d4d176822	not-for-merge	branch 'benzea/fix-egis-crash' of https://gitlab.freedesktop.org/libfprint/libfprint
+400cacf8671832b26c3ffcc6e09f263ab285ed3e	not-for-merge	branch 'benzea/fix-elan-leak' of https://gitlab.freedesktop.org/libfprint/libfprint
+b137807420ee91d53cc0651318865a472991ba25	not-for-merge	branch 'benzea/fix-upekts' of https://gitlab.freedesktop.org/libfprint/libfprint
+e1fdc7b01b45c8678e86b8518f9178844a0bb303	not-for-merge	branch 'benzea/fix-uru4000' of https://gitlab.freedesktop.org/libfprint/libfprint
+f404a69b73eaba72e5e0d181bec1fcdff127c5e7	not-for-merge	branch 'benzea/improve-image-device-tests' of https://gitlab.freedesktop.org/libfprint/libfprint
+788fd9ca7af353942848f4d920b88a019e0987c3	not-for-merge	branch 'benzea/misc-fixes' of https://gitlab.freedesktop.org/libfprint/libfprint
+afa37cbcbf775c21b85715067061f910cc398205	not-for-merge	branch 'benzea/persistent-data' of https://gitlab.freedesktop.org/libfprint/libfprint
+78e8cf2a40f69be2c34994ba583ec8c4a3d6d239	not-for-merge	branch 'benzea/random-debug-output' of https://gitlab.freedesktop.org/libfprint/libfprint
+2a9ad74ec4af89ce8f34a2d6059b7710bf70ca08	not-for-merge	branch 'benzea/self-match-check' of https://gitlab.freedesktop.org/libfprint/libfprint
+ad0b542aa13576cdb95520880bee062019ed10c8	not-for-merge	branch 'benzea/separate-physical-pages' of https://gitlab.freedesktop.org/libfprint/libfprint
+909865ed8de2a603fb20e9d26fe91be88ff66dce	not-for-merge	branch 'benzea/v1.94.0' of https://gitlab.freedesktop.org/libfprint/libfprint
+615c37084225e8faaf187c5b2ef9f9250063f504	not-for-merge	branch 'benzea/vfs301-userdata' of https://gitlab.freedesktop.org/libfprint/libfprint
+f2dfa2ae0a1d85643aacd86878a5fe7b3fc97574	not-for-merge	branch 'feature/sdcp' of https://gitlab.freedesktop.org/libfprint/libfprint
+2d7c5277de08c6b29b3fac7447f17a516fbc4d1c	not-for-merge	branch 'feature/sdcp-v2' of https://gitlab.freedesktop.org/libfprint/libfprint
+823f2c1067a27deae4153dd9ece6ce24bedc0680	not-for-merge	branch 'libfprint-1-0' of https://gitlab.freedesktop.org/libfprint/libfprint
+bd99f865d8bf2e0f3f7e9e48fd6826fd9815f4cc	not-for-merge	branch 'libfprint-1-90' of https://gitlab.freedesktop.org/libfprint/libfprint
+83346fc8bcbe244d3376d1505be71cd10c75910b	not-for-merge	branch 'master' of https://gitlab.freedesktop.org/libfprint/libfprint
+4fa199aeb4c5eca0654fb1a4719b8e9f0186c125	not-for-merge	branch 'mincrmatt12/elan-0c3d-norotate' of https://gitlab.freedesktop.org/libfprint/libfprint
+b50cba1fa40c9b8a3047783a5297a5eff9f081e6	not-for-merge	branch 'mincrmatt12/elanspi-3104' of https://gitlab.freedesktop.org/libfprint/libfprint
+88cd932203a109b8a3a062cac8ce8d32ab70e6ef	not-for-merge	branch 'vincenth/simplify-synaptics-driver' of https://gitlab.freedesktop.org/libfprint/libfprint
+65bd095ea9fba0126b4cb3f641c57b13e5be99a7	not-for-merge	branch 'wip/benzea/add-delete-finger' of https://gitlab.freedesktop.org/libfprint/libfprint
+197edac702b26ffa90f79be9a492313de2d95c5c	not-for-merge	branch 'wip/hadess/driver-id-removal' of https://gitlab.freedesktop.org/libfprint/libfprint
+9b3e9d9e8cee8385175800f4385ec437337590d5	not-for-merge	branch 'wip/hadess/elan-fix-leak' of https://gitlab.freedesktop.org/libfprint/libfprint
+35e8deba37deb0060e28460b8f6cf35a89353942	not-for-merge	branch 'wip/hadess/new-elan' of https://gitlab.freedesktop.org/libfprint/libfprint
+e2f06e8f1e6be6edf8c529acfea7ea98b7c42c49	not-for-merge	branch 'wip/hadess/remove-num_stripes' of https://gitlab.freedesktop.org/libfprint/libfprint
+8d871751f6ab6d44d439383414822bc765845f7d	not-for-merge	branch 'wip/hadess/virtual-nonimgdev' of https://gitlab.freedesktop.org/libfprint/libfprint
+f2dfa2ae0a1d85643aacd86878a5fe7b3fc97574	not-for-merge	'refs/merge-requests/146/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+708ca8e4a54abc1ed46ee1c7e30d9d9890b37e1f	not-for-merge	'refs/merge-requests/146/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+cb332cfce8bb24aa33a3fa0b0c3ccaaab07d29ce	not-for-merge	'refs/merge-requests/212/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+b4f564cafc46819301378dc4404634085afa7df2	not-for-merge	'refs/merge-requests/212/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+a8400ae0541d3663823fb84f5912f98ba0feda11	not-for-merge	'refs/merge-requests/217/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+dbd89929b9517cc531e2042930480e3d786d05b2	not-for-merge	'refs/merge-requests/217/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+11f0316d069cc90c154c8cb0e46478388c5e2a74	not-for-merge	'refs/merge-requests/330/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+b0ff8c52794baa8cc70dbcc595060ffb6868bd75	not-for-merge	'refs/merge-requests/330/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+2776600bd0de832c5fc3689fbabefe0538a6b904	not-for-merge	'refs/merge-requests/357/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+db395a64733961709ad69a90c19a28702a0c8897	not-for-merge	'refs/merge-requests/357/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+2a9ad74ec4af89ce8f34a2d6059b7710bf70ca08	not-for-merge	'refs/merge-requests/358/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+a0adfbeffa3d2b74fc16a8368814ad5b96c3087e	not-for-merge	'refs/merge-requests/358/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+afa37cbcbf775c21b85715067061f910cc398205	not-for-merge	'refs/merge-requests/368/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+71e78247e72ce8e3b4a622c82568c395d9928020	not-for-merge	'refs/merge-requests/368/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+508ae8961e8c18dacb3d6f0919cd72cffe9ab280	not-for-merge	'refs/merge-requests/392/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+bfb77a332632822196af95ea3763872d293ccd7a	not-for-merge	'refs/merge-requests/418/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+989a2be546adb2f841d3134753f3efc4776afab4	not-for-merge	'refs/merge-requests/418/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+8e27d45a7747c9aaf8e619f2de3ad3eae9659da8	not-for-merge	'refs/merge-requests/431/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+78a380bb8dab9459989e38521fd5717962cf4679	not-for-merge	'refs/merge-requests/431/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+7423deb0ef0b42271d1429e6fe2658835953138f	not-for-merge	'refs/merge-requests/435/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+f0dbb98198c4b469ef30db803f9348b95537ffde	not-for-merge	'refs/merge-requests/435/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+4d32f7e8d86e7dba71eda82af2802a387e48621a	not-for-merge	'refs/merge-requests/484/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+c17f878318bce51cd8ade23d2a0f40f2692bbccc	not-for-merge	'refs/merge-requests/484/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+56442591a5c302a906289f30988fb50fc3d82ed6	not-for-merge	'refs/merge-requests/512/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+6c60c9ed8ed960c51d04cc6878fc3bc1abcf0e10	not-for-merge	'refs/merge-requests/512/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+bed05d2926c35f6d3c38fb59d8753b5480735b16	not-for-merge	'refs/merge-requests/530/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+0ac229579c4f6cb7c3c553775b652c82b40b004a	not-for-merge	'refs/merge-requests/530/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+2d7c5277de08c6b29b3fac7447f17a516fbc4d1c	not-for-merge	'refs/merge-requests/547/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+d360346dc3a36dde66d5b7993db561de463a6e6e	not-for-merge	'refs/merge-requests/547/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+cbd71e060982930e05abf1c54183502bbbad4104	not-for-merge	'refs/merge-requests/548/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+7e4e2bfa5a29a30a5518c23df6d3d072fb00d591	not-for-merge	'refs/merge-requests/548/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+04a8ae3f8ad918876f35debd2ebcfe6e6ead7441	not-for-merge	'refs/merge-requests/556/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+98b21cd9700dc6525fe94271356b35e360395fb2	not-for-merge	'refs/merge-requests/556/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+ba10c9398fe4542ff6403549884d0c8687182845	not-for-merge	'refs/merge-requests/570/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+dd300985968519165922b7470f40db5d61cd35a3	not-for-merge	'refs/merge-requests/570/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+49a2a400e9ffe93f03a180a16eaf6c3f40b987eb	not-for-merge	'refs/merge-requests/571/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+3374f0ce100cd0e03f15f78f72a9f342f60c08c9	not-for-merge	'refs/merge-requests/571/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+1852477c5cb9e6258ba772f6f383e8254a0d7932	not-for-merge	'refs/merge-requests/572/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+cea69a7c25bb6131e8ebf79defaa0ff7416d5e36	not-for-merge	'refs/merge-requests/572/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+344480a6d62a58f036680a81f5cf4f1e890afabb	not-for-merge	'refs/merge-requests/574/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+cd37cff8db8c845ca9dfbb0ba49bb0b7d76e1bf0	not-for-merge	'refs/merge-requests/574/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+0720b48c110532790166e8d18a92fd40fae3f612	not-for-merge	'refs/merge-requests/576/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+34bc7566e9fbf467433cc943739193f5116dd09e	not-for-merge	'refs/merge-requests/576/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+3eda878b75a23276cdd580be98263f35a2677963	not-for-merge	'refs/merge-requests/579/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+ecc195fa48bbdb41d390aa7853bbb18004460a43	not-for-merge	'refs/merge-requests/579/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+22531310390fb51e988d06638845f152f8989b78	not-for-merge	'refs/merge-requests/580/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+72931bac39f7aa4a17530d95f3080e8efc5efaa0	not-for-merge	'refs/merge-requests/580/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+b004d110e44fc9674ec7f395745868e615edd180	not-for-merge	'refs/merge-requests/585/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+7a155316eb4c03f34c6a62b3ee7177ca421da8f0	not-for-merge	'refs/merge-requests/585/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+7912a0cb26727611e0d10c1615efa99bba2576fc	not-for-merge	'refs/merge-requests/586/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+1bc6c7f6d10fdc3e02c76e266968113b96525464	not-for-merge	'refs/merge-requests/586/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+19375e57cbb95839330505f465e3428c7120f0e5	not-for-merge	'refs/merge-requests/588/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+54b8486ebf93d6ee4d39aa90c82e794f40ceb66e	not-for-merge	'refs/merge-requests/588/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+3a3d70f0bcfec23e08e9bd2a5d9c1855b83e5ba5	not-for-merge	'refs/merge-requests/610/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+5735387eb2d3f01f169f8eb5afe63bd9218bdc58	not-for-merge	'refs/merge-requests/610/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+5b5218c77dc91092bca87e17767b665e2b1e4eda	not-for-merge	'refs/merge-requests/611/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+8d1f7a7277aec1c86b44b9b63c575993f33d65a4	not-for-merge	'refs/merge-requests/611/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+7b70656310d026eb8b3928311fca29661f4890fc	not-for-merge	'refs/merge-requests/612/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+6a072ae6e70ad50e3cdf5b6c5adb45474e05e0cd	not-for-merge	'refs/merge-requests/612/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+56588bccaa0a160e88459ef9ca2ee917ca9f04e4	not-for-merge	'refs/merge-requests/619/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+1f41de3e6e84c5c9461af37ec711aeaa70b0414e	not-for-merge	'refs/merge-requests/619/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+c85e5bbf39073d2bef51eade6f3c7b1ed4728b4a	not-for-merge	'refs/merge-requests/620/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+0bb2fc93284bdd4f12c6d400bbc27fc3252b8691	not-for-merge	'refs/merge-requests/620/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+0fd78560a245eebec1c93e71ee1f29b15ec1be67	not-for-merge	'refs/merge-requests/626/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+095377e33c7eea5a37605584d6975628e831945a	not-for-merge	'refs/merge-requests/626/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+232ec09eb645f71331d10e9c7d41f0009eac648b	not-for-merge	'refs/merge-requests/630/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+7d3d64f5f9aa6beb573dc8205884825d440bec37	not-for-merge	'refs/merge-requests/630/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+06da8460f25c75a94270437eb6df74e4148dfd2b	not-for-merge	'refs/merge-requests/633/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+3cf154847225ebb46670e3d438cb7f6bc7e84e06	not-for-merge	'refs/merge-requests/633/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+ae76662becbb601eec61a2cb414ede91a822b897	not-for-merge	'refs/merge-requests/638/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+bd7b4a94134fb0d84473b8176afa6ca3bc3d09c0	not-for-merge	'refs/merge-requests/638/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+400c39d7013a7cb39a5745df3d73edc0dcb028b7	not-for-merge	'refs/merge-requests/641/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+5cd38111e1765a034c98f5a3d1cb9d9074496e91	not-for-merge	'refs/merge-requests/641/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+a8af27e78b677714b1ef42e8a55ce0f0d87c92d9	not-for-merge	'refs/merge-requests/642/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+a022bd2f1693b3e9a67ac802f67aa5dbf3ad2310	not-for-merge	'refs/merge-requests/642/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+d4af48dfbe2d4bf3de26b42e93c8fd9e5232a39b	not-for-merge	'refs/merge-requests/643/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+df70ef5f6ee104f3651adb84dabe34040f0a609e	not-for-merge	'refs/merge-requests/643/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+e0ff820b0fba668a305884155da37213aa1c4fbc	not-for-merge	'refs/merge-requests/644/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+926dcd4b06acbebf298b7ef7de1505e20c42b74f	not-for-merge	'refs/merge-requests/644/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+83346fc8bcbe244d3376d1505be71cd10c75910b	not-for-merge	'refs/merge-requests/645/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+7ac92b4f5463356169c2911bb1bcc5bebc3bf030	not-for-merge	'refs/merge-requests/645/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+a5228dbe2e459d34051a68b18ea5b9840967c073	not-for-merge	'refs/merge-requests/646/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+32358d09157924bcd344ed16ab14460bdea2c21b	not-for-merge	'refs/merge-requests/646/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+7500a883c072c8913a8e7b8bf84b29c376e18de7	not-for-merge	'refs/merge-requests/647/head' of https://gitlab.freedesktop.org/libfprint/libfprint
+d2982ad6ac85c11c0c579ec898e4a0bf14aec5be	not-for-merge	'refs/merge-requests/647/merge' of https://gitlab.freedesktop.org/libfprint/libfprint
+94d501855769360c6b592fafbe011f8c4c0bac06	not-for-merge	'refs/pipelines/201428' of https://gitlab.freedesktop.org/libfprint/libfprint
+bed842605912c407c01f20b4ea37f953405550cd	not-for-merge	'refs/pipelines/201433' of https://gitlab.freedesktop.org/libfprint/libfprint
+0175842cc7d224e2f8e8c4535f27a695ef1731fe	not-for-merge	'refs/stashes/0175842c' of https://gitlab.freedesktop.org/libfprint/libfprint
+0aa122e63f5b3709f5b343c71620908cf0f7e537	not-for-merge	'refs/stashes/0aa122e6' of https://gitlab.freedesktop.org/libfprint/libfprint
+11e1caa2f054a8c06a8d402c38f60fe54a84b43b	not-for-merge	'refs/stashes/11e1caa2' of https://gitlab.freedesktop.org/libfprint/libfprint
+17c85bc3d1f55f646f1271c8d95bbbd6c48f9f6f	not-for-merge	'refs/stashes/17c85bc3' of https://gitlab.freedesktop.org/libfprint/libfprint
+1b69c44590670be706bd53874ac49125762a7421	not-for-merge	'refs/stashes/1b69c445' of https://gitlab.freedesktop.org/libfprint/libfprint
+1c7064a21560e06ea86679cda854911b5c045011	not-for-merge	'refs/stashes/1c7064a2' of https://gitlab.freedesktop.org/libfprint/libfprint
+1e98bf2a912e5debee7f2b78430d9b3c3f34f51e	not-for-merge	'refs/stashes/1e98bf2a' of https://gitlab.freedesktop.org/libfprint/libfprint
+28e4ee6c1495213e92c1f4d656e0132a8d58c132	not-for-merge	'refs/stashes/28e4ee6c' of https://gitlab.freedesktop.org/libfprint/libfprint
+2cfebb3325be8dca6b96ad02c78660223df20507	not-for-merge	'refs/stashes/2cfebb33' of https://gitlab.freedesktop.org/libfprint/libfprint
+2e8876f42467c00d26b5fd73fae9bb1e008dcbb7	not-for-merge	'refs/stashes/2e8876f4' of https://gitlab.freedesktop.org/libfprint/libfprint
+2fdd3d359c401dd6732c1ca7eee6dd119e65267d	not-for-merge	'refs/stashes/2fdd3d35' of https://gitlab.freedesktop.org/libfprint/libfprint
+3318acf3742b7b73936748e301fb8fcf8fc42b9d	not-for-merge	'refs/stashes/3318acf3' of https://gitlab.freedesktop.org/libfprint/libfprint
+337d7c6c828be2855f8a9b07b2dda1246acfa5f0	not-for-merge	'refs/stashes/337d7c6c' of https://gitlab.freedesktop.org/libfprint/libfprint
+36e831a8223e1d5bb5650144e528476e92865535	not-for-merge	'refs/stashes/36e831a8' of https://gitlab.freedesktop.org/libfprint/libfprint
+39eac743c113751a35864e745b3e3edf8cd6923f	not-for-merge	'refs/stashes/39eac743' of https://gitlab.freedesktop.org/libfprint/libfprint
+43080d483c973808874e28d76f6ded6b6df7dba3	not-for-merge	'refs/stashes/43080d48' of https://gitlab.freedesktop.org/libfprint/libfprint
+45ce8582f86e687da367dcdaa4bc921fb46d3105	not-for-merge	'refs/stashes/45ce8582' of https://gitlab.freedesktop.org/libfprint/libfprint
+460659be126ccb67c2d5381082d2f30502c6a6cd	not-for-merge	'refs/stashes/460659be' of https://gitlab.freedesktop.org/libfprint/libfprint
+4a289f845bdc7d568386599a4deee6084bfd9943	not-for-merge	'refs/stashes/4a289f84' of https://gitlab.freedesktop.org/libfprint/libfprint
+4acc136d9e6558c7b2ead700b7616de343f292a1	not-for-merge	'refs/stashes/4acc136d' of https://gitlab.freedesktop.org/libfprint/libfprint
+5158c771caa46aacc9f2a7961400ecf9f7cc2f15	not-for-merge	'refs/stashes/5158c771' of https://gitlab.freedesktop.org/libfprint/libfprint
+57a36a2d2cc3c3530dcd8039981c18f15b856303	not-for-merge	'refs/stashes/57a36a2d' of https://gitlab.freedesktop.org/libfprint/libfprint
+591d13f39d530cd7cf82be28f3a7b6b9e0de4b17	not-for-merge	'refs/stashes/591d13f3' of https://gitlab.freedesktop.org/libfprint/libfprint
+62403d6fc6448004adc458eae3792a7a43e10c1c	not-for-merge	'refs/stashes/62403d6f' of https://gitlab.freedesktop.org/libfprint/libfprint
+698f114f4877db20f0ae9dd006e526c8b5e93c0d	not-for-merge	'refs/stashes/698f114f' of https://gitlab.freedesktop.org/libfprint/libfprint
+7547d5adc1c2882990c10e960be80f44e2f56ff6	not-for-merge	'refs/stashes/7547d5ad' of https://gitlab.freedesktop.org/libfprint/libfprint
+79317f71ee87fbc67125eaf6c16b566cd5663c4b	not-for-merge	'refs/stashes/79317f71' of https://gitlab.freedesktop.org/libfprint/libfprint
+7bdb9962326c1bd6e2b2179aa6a544b92661447a	not-for-merge	'refs/stashes/7bdb9962' of https://gitlab.freedesktop.org/libfprint/libfprint
+7ffa87ab095f8f0c27a69033e6f2b9646ff46557	not-for-merge	'refs/stashes/7ffa87ab' of https://gitlab.freedesktop.org/libfprint/libfprint
+8be061202f520b93cc8d636fdfecca1bbb7c4ed1	not-for-merge	'refs/stashes/8be06120' of https://gitlab.freedesktop.org/libfprint/libfprint
+8c9c89429af5f172d6998e631c6cc6756644f73b	not-for-merge	'refs/stashes/8c9c8942' of https://gitlab.freedesktop.org/libfprint/libfprint
+8db6ea5a1b38b8c088d12c54f2eacf0e39e1bbbf	not-for-merge	'refs/stashes/8db6ea5a' of https://gitlab.freedesktop.org/libfprint/libfprint
+9253e51118ccc74db9dc06ccdc943980e488ddb6	not-for-merge	'refs/stashes/9253e511' of https://gitlab.freedesktop.org/libfprint/libfprint
+933fe52b80f43645c780b7dbd7aa2a256a1b8608	not-for-merge	'refs/stashes/933fe52b' of https://gitlab.freedesktop.org/libfprint/libfprint
+93de857ea1e33efc2c79ea3c55e93b50c550d090	not-for-merge	'refs/stashes/93de857e' of https://gitlab.freedesktop.org/libfprint/libfprint
+960dc5aa42572d25777676360e34861c15d716d8	not-for-merge	'refs/stashes/960dc5aa' of https://gitlab.freedesktop.org/libfprint/libfprint
+9ae6d3fb13446ba5f955ed2902a8e2a429f7ce13	not-for-merge	'refs/stashes/9ae6d3fb' of https://gitlab.freedesktop.org/libfprint/libfprint
+a5016d3580e2f7053beeed8d67cec84e8383305a	not-for-merge	'refs/stashes/a5016d35' of https://gitlab.freedesktop.org/libfprint/libfprint
+afbfd76486c264db84a03cfc645abb0cd06d751c	not-for-merge	'refs/stashes/afbfd764' of https://gitlab.freedesktop.org/libfprint/libfprint
+b4862ad9dc04e0c9b648627b86142e664ce314be	not-for-merge	'refs/stashes/b4862ad9' of https://gitlab.freedesktop.org/libfprint/libfprint
+bc9cbc799bd328b705978bd02f2b6f232a982bdd	not-for-merge	'refs/stashes/bc9cbc79' of https://gitlab.freedesktop.org/libfprint/libfprint
+bdb5d99324176143118e9932d77bf4b1e9cac58b	not-for-merge	'refs/stashes/bdb5d993' of https://gitlab.freedesktop.org/libfprint/libfprint
+c48855ff8779275b99038935af9cc5921eee9f92	not-for-merge	'refs/stashes/c48855ff' of https://gitlab.freedesktop.org/libfprint/libfprint
+c6d988ae073c76d26b4b03a517ac2e9986f0a31e	not-for-merge	'refs/stashes/c6d988ae' of https://gitlab.freedesktop.org/libfprint/libfprint
+c7de79d07b24141323a33be7c66228ce9bcce073	not-for-merge	'refs/stashes/c7de79d0' of https://gitlab.freedesktop.org/libfprint/libfprint
+cdb9c88958fb76852b2f08d62f567ed24b60f8ca	not-for-merge	'refs/stashes/cdb9c889' of https://gitlab.freedesktop.org/libfprint/libfprint
+d197f4e484627c31dd32e16c4440fc57aef89891	not-for-merge	'refs/stashes/d197f4e4' of https://gitlab.freedesktop.org/libfprint/libfprint
+d44b2063b642234788eecb3ea38adc740ada3744	not-for-merge	'refs/stashes/d44b2063' of https://gitlab.freedesktop.org/libfprint/libfprint
+d477c62f9ff117af0124e925f55360a56b683b35	not-for-merge	'refs/stashes/d477c62f' of https://gitlab.freedesktop.org/libfprint/libfprint
+dbe6dac1ff0df4c34f22a4a2698cec9db639fef7	not-for-merge	'refs/stashes/dbe6dac1' of https://gitlab.freedesktop.org/libfprint/libfprint
+dce86d64848c4e471f12e282da55cdce76c9fdfd	not-for-merge	'refs/stashes/dce86d64' of https://gitlab.freedesktop.org/libfprint/libfprint
+dd87161a60b3c019992270cdd6c08ff03a514302	not-for-merge	'refs/stashes/dd87161a' of https://gitlab.freedesktop.org/libfprint/libfprint
+df94e187d166afdd1c1766c4ee341b5dce3bb4b4	not-for-merge	'refs/stashes/df94e187' of https://gitlab.freedesktop.org/libfprint/libfprint
+e1ce9f31b3ea082e12dda3576e3dca5ca30caed8	not-for-merge	'refs/stashes/e1ce9f31' of https://gitlab.freedesktop.org/libfprint/libfprint
+ed85818d3e3a2460f831f116e857770dd0e92196	not-for-merge	'refs/stashes/ed85818d' of https://gitlab.freedesktop.org/libfprint/libfprint
+f3f8b27a55b5599e0cfc3ee890b5deeb426f422b	not-for-merge	'refs/stashes/f3f8b27a' of https://gitlab.freedesktop.org/libfprint/libfprint
+f8fe52e49272d9cc336e406e1380bfe5e5f94fbf	not-for-merge	'refs/stashes/f8fe52e4' of https://gitlab.freedesktop.org/libfprint/libfprint
+faf010dd5ca2e831e9e9581e34d26ba5370e2eeb	not-for-merge	'refs/stashes/faf010dd' of https://gitlab.freedesktop.org/libfprint/libfprint
+fd25ba646457530404570f981a9e32ffe0fded5f	not-for-merge	'refs/stashes/fd25ba64' of https://gitlab.freedesktop.org/libfprint/libfprint
+fe020bc2c6685d90e797c57d6b917b2a0f65e3de	not-for-merge	'refs/stashes/fe020bc2' of https://gitlab.freedesktop.org/libfprint/libfprint
+6710b7a140a64233ba00a6b222c028ead2d7348e	not-for-merge	tag 'V_0_2_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+285a66ef67453be0416bdc44febc7b2e0d1ca70f	not-for-merge	tag 'V_0_6_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+5d98101bb6ea1f9aea734117705834c667037266	not-for-merge	tag 'V_0_7_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+570ba7ad023d2a3502369888cd6df2af8c6656fe	not-for-merge	tag 'V_0_8_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+d51b012440fad48cd340f7c1ff683506329b5439	not-for-merge	tag 'V_0_8_1' of https://gitlab.freedesktop.org/libfprint/libfprint
+a9fca68901dd83f65f2036a404da65ac680207e2	not-for-merge	tag 'V_0_8_2' of https://gitlab.freedesktop.org/libfprint/libfprint
+39b6fdf4ce777ffc91ee670c7d2491ee69f592eb	not-for-merge	tag 'V_0_99_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+646685cd7fad5bca0f64c2d4253e8272b3b824cc	not-for-merge	tag 'V_1_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+0ad86de20084f05a05b8e3b02fa13ba8b6cdaf1d	not-for-merge	tag 'V_1_90_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+a378b9d5a7bd54262f20865bdb06345880786cb2	not-for-merge	tag 'ubuntu/1%1.94.7+tod1-0ubuntu5_24.04.7' of https://gitlab.freedesktop.org/libfprint/libfprint
+04e0a3729c7295d256cc7c0222f023e91bbbef02	not-for-merge	tag 'v1.90.1' of https://gitlab.freedesktop.org/libfprint/libfprint
+398990445b798a65910d857fcd89e4d2a785396a	not-for-merge	tag 'v1.90.2' of https://gitlab.freedesktop.org/libfprint/libfprint
+3daa3d5c7d430b6ae1124daaf30887b543695161	not-for-merge	tag 'v1.90.3' of https://gitlab.freedesktop.org/libfprint/libfprint
+9d2aac0d6e76173de6d9c6b4935f033ed5204349	not-for-merge	tag 'v1.90.4' of https://gitlab.freedesktop.org/libfprint/libfprint
+45c60263f13cbff1f904b3d6a03261793e0a784c	not-for-merge	tag 'v1.90.5' of https://gitlab.freedesktop.org/libfprint/libfprint
+9800b9cb3b1fcb017aa5d0f8398c72ce78f9b3db	not-for-merge	tag 'v1.90.6' of https://gitlab.freedesktop.org/libfprint/libfprint
+321ccab2ba499f5fb32c3a475440317a5c15b4f2	not-for-merge	tag 'v1.90.7' of https://gitlab.freedesktop.org/libfprint/libfprint
+9610f9a7442971a6de65f042a963142266df02e4	not-for-merge	tag 'v1.92.0' of https://gitlab.freedesktop.org/libfprint/libfprint
+13c689a818440ec52a06687d0ade8ac4f680389d	not-for-merge	tag 'v1.92.1' of https://gitlab.freedesktop.org/libfprint/libfprint
+c901fa0e4d1902f13934029ce5e3d183176a206d	not-for-merge	tag 'v1.94.0' of https://gitlab.freedesktop.org/libfprint/libfprint
+4c1be4b78a6e87da1532baaf2bd0d22c485749b4	not-for-merge	tag 'v1.94.1' of https://gitlab.freedesktop.org/libfprint/libfprint
+5e081645390be9265af660d2454f7f40a2cea183	not-for-merge	tag 'v1.94.10' of https://gitlab.freedesktop.org/libfprint/libfprint
+b743c1e2237559390b4e139eda8dc07f95c0e6b7	not-for-merge	tag 'v1.94.100' of https://gitlab.freedesktop.org/libfprint/libfprint
+f8e9933dc0b78e12a4b0b2d9ebc0809d3d66a11b	not-for-merge	tag 'v1.94.2' of https://gitlab.freedesktop.org/libfprint/libfprint
+2ddfd4537152f920bfe10fbc6ab42bc04c6cb0a0	not-for-merge	tag 'v1.94.3' of https://gitlab.freedesktop.org/libfprint/libfprint
+730f2c24b84f4f26c4f9a91ba6893862d3b2a4b5	not-for-merge	tag 'v1.94.4' of https://gitlab.freedesktop.org/libfprint/libfprint
+e44fbfa1cb144df58ad452815d8b51e43afc6edd	not-for-merge	tag 'v1.94.5' of https://gitlab.freedesktop.org/libfprint/libfprint
+1e18db1206c3b8b1d84e4adb4d25801a173a6c37	not-for-merge	tag 'v1.94.6' of https://gitlab.freedesktop.org/libfprint/libfprint
+7b72abd3ce696ad58f1d97ef50c3b8a04fc994b9	not-for-merge	tag 'v1.94.7' of https://gitlab.freedesktop.org/libfprint/libfprint
+74f1b35e37371184f7abec34eae218bac6b7f65d	not-for-merge	tag 'v1.94.8' of https://gitlab.freedesktop.org/libfprint/libfprint
+191c641c1970e6926d0580d4f4f030f75815f76e	not-for-merge	tag 'v1.94.9' of https://gitlab.freedesktop.org/libfprint/libfprint
+fa230d10624cdcbc7ba964e6a8693d25db9ad725	not-for-merge	tag 'v_0_3_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+53042cac0ec0cbb376ee9a3f73c9d826a97c4233	not-for-merge	tag 'v_0_4_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+5962bd0f93c9a919c0db0ec9c8d6636aa4d76eb4	not-for-merge	tag 'v_0_5_0' of https://gitlab.freedesktop.org/libfprint/libfprint
+c75a168fd092dde9aad5eb5f813c7d55fa158f11	not-for-merge	tag 'v_0_5_1' of https://gitlab.freedesktop.org/libfprint/libfprint

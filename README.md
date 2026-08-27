@@ -7,6 +7,7 @@
 Linux (Arch / CachyOS, Wayland) unlock solution for the **Realtek USB2.0 Finger Print Bridge (USB ID `3274:9011`)** — a sensor with **no official libfprint driver** — plus face unlock via howdy.
 
 ![status](https://img.shields.io/badge/status-working-green) ![license](https://img.shields.io/badge/license-LGPL--2.1-orange)
+![release](https://img.shields.io/github/v/release/xiaomaogou66/Mechrevo-Wujie14-Unlock)
 
 > Desktop base: [NyxNiri](https://github.com/ech678/NyxNiri) (GPL-3.0) — Niri + Noctalia V5 on Arch/CachyOS.
 

@@ -7,6 +7,7 @@
 面向 **Realtek USB2.0 Finger Print Bridge（USB ID `3274:9011`）** 的 Linux（Arch / CachyOS，Wayland）解锁方案——该传感器**无官方 libfprint 驱动**，本方案通过逆向工程实现驱动支持，并集成 howdy 面部解锁。
 
 ![status](https://img.shields.io/badge/status-working-green) ![license](https://img.shields.io/badge/license-LGPL--2.1-orange)
+![release](https://img.shields.io/github/v/release/xiaomaogou66/Mechrevo-Wujie14-Unlock)
 
 > 桌面基础方案：[NyxNiri](https://github.com/ech678/NyxNiri)（GPL-3.0）——Arch/CachyOS 上的 Niri + Noctalia V5。
 
