@@ -2,7 +2,7 @@
   <a href="README.md">English</a> | <strong>简体中文</strong>
 </div>
 
-# Mechrevo Wujie 14 指纹与面部解锁
+# 机械革命 无界 14 2026 指纹与面部解锁
 
 面向 **Realtek USB2.0 Finger Print Bridge（USB ID `3274:9011`）** 的 Linux（Arch / CachyOS，Wayland）解锁方案——该传感器**无官方 libfprint 驱动**，本方案通过逆向工程实现驱动支持，并集成 howdy 面部解锁。
 
