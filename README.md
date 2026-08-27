@@ -1,3 +1,7 @@
+<div align="right">
+  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
+</div>
+
 # Fingerprint & Face Unlock for Mechrevo Wujie 14
 
 Linux (Arch / CachyOS, Wayland) unlock solution for the **Realtek USB2.0 Finger Print Bridge (USB ID `3274:9011`)** — a sensor with **no official libfprint driver** — plus face unlock via howdy.
