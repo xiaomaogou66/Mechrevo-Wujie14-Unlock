@@ -110,6 +110,25 @@ Reload: `noctalia msg config-reload`
 | `Mod+L` → finger | unlock |
 | `Mod+L` → Enter | camera → unlock |
 
+## Login screen (greetd) — parallel biometric unlock
+
+The greeter (noctalia-greeter) has no native fingerprint support, so login uses a PAM hook that runs **fingerprint (primary) and face (backup) in parallel** after pressing Enter:
+
+```bash
+# install the biometric check script
+sudo install -m 755 tools/biometric-check.sh /usr/local/bin/biometric-check.sh
+
+# allow the greeter to submit an empty password (PAM biometrics trigger)
+sudo mkdir -p /var/lib/noctalia-greeter
+printf '[auth]\nallow_empty_password = true\n' | sudo tee /var/lib/noctalia-greeter/greeter.toml
+
+# hook into greetd PAM (one line, see tools/greetd.pam.example)
+sudo cp /etc/pam.d/greetd /etc/pam.d/greetd.bak
+sudo sed -i '/auth.*pam_nologin.so/a auth sufficient pam_exec.so /usr/local/bin/biometric-check.sh' /etc/pam.d/greetd
+```
+
+Usage at login: **put your finger on the sensor first, then press Enter** (fingerprint wins in ~1s); if no finger, the camera runs face recognition.
+
 ## Repository layout
 
 ```

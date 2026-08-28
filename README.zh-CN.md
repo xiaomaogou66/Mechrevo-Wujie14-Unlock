@@ -110,6 +110,25 @@ fingerprint = true            # 原生指纹解锁
 | `Mod+L` → 手指 | 解锁 |
 | `Mod+L` → 回车 | 摄像头识别 → 解锁 |
 
+## 登录屏（greetd）——并行生物识别解锁
+
+登录屏 greeter（noctalia-greeter）没有原生指纹支持，通过 PAM 钩子实现**指纹优先、人脸备份的并行验证**（按回车后触发）：
+
+```bash
+# 安装生物识别脚本
+sudo install -m 755 tools/biometric-check.sh /usr/local/bin/biometric-check.sh
+
+# 允许 greeter 提交空密码（触发 PAM 生物识别）
+sudo mkdir -p /var/lib/noctalia-greeter
+printf '[auth]\nallow_empty_password = true\n' | sudo tee /var/lib/noctalia-greeter/greeter.toml
+
+# 挂接 greetd PAM（一行，参考 tools/greetd.pam.example）
+sudo cp /etc/pam.d/greetd /etc/pam.d/greetd.bak
+sudo sed -i '/auth.*pam_nologin.so/a auth sufficient pam_exec.so /usr/local/bin/biometric-check.sh' /etc/pam.d/greetd
+```
+
+登录用法：**先把手指放上传感器，再按回车**（指纹 1 秒内解锁）；没放手指则摄像头识脸。
+
 ## 仓库结构
 
 ```

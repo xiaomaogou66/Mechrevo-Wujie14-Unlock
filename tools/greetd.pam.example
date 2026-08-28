@@ -1,0 +1,13 @@
+#%PAM-1.0
+
+auth       required     pam_securetty.so
+auth       requisite    pam_nologin.so
+auth       required     pam_faillock.so      preauth
+auth       sufficient   pam_exec.so          /usr/local/bin/biometric-check.sh
+auth       [success=1 default=bad] pam_unix.so          try_first_pass nullok
+auth       [default=die]               pam_faillock.so      authfail
+auth       requisite    pam_deny.so
+auth       required     pam_faillock.so      authsucc
+account    include      system-local-login
+session    include      system-local-login
+session    required     pam_systemd.so
